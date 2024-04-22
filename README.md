@@ -5,7 +5,7 @@ This repository contains a data sample of football small-sided games (SSG), as w
 Dataset A
 ---------------------------------------------------------
 An exemplar dataset of raw GNSS positional data, comprises columns of timestamp (Unix timestamp), latitude and longitude coordinates of each player during the SSG.
-For the reason of anonymity, these latitude and longitude coordinates have been modified, which doesn not influence ...?
+For the reason of anonymity, latitude and longitude coordinates have been modified, without influencing the purpose of demonstration,
 
 Dataset B
 ---------------------------------------------------------
