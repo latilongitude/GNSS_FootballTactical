@@ -82,7 +82,7 @@ end_ts = float(format(float(match_info.loc[0:playernum-1, ['Split End Time']].mi
 rm = rotation_matrix
 
 ## path to SSG positional data
-position_data_dir = '/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_A/'
+position_data_dir = '/... FILE PATH .../Dataset_A/'
 
 ssg = PositionalData.team_tracking(position_data_dir, start_ts, end_ts, rm, switch_X_Y)
 
