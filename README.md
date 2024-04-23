@@ -8,11 +8,11 @@ An exemplar dataset of raw GNSS positional data, comprises columns of timestamp 
 
 Dataset B
 ---------------------------------------------------------
-An exemplar dataset of session description, provides the exact start and end timestamps of the SSG.
+An exemplar dataset of session details, provides the exact start and end timestamps of the SSG.
 
 Dataset C
 ---------------------------------------------------------
-An exemplar dataset of pitch location coordinates, provides the coordinates of four corners of the corresponding pitch.
+An exemplar dataset of pitch location coordinates, provides the coordinates of four pitch corners.
 
 Codes
 ---------------------------------------------------------
