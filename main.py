@@ -10,13 +10,13 @@ from shapely.geometry import LinearRing
 
 #%% read session details
 
-match_info_dir = '/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_B/ssgdetails_6x6.xlsx'
+match_info_dir = '/... FILE PATH .../Dataset_B/ssgdetails_6x6.xlsx'
 
 match_info = SessionDetails.read_match_data(match_info_dir)
 
 #%% read pitch location
 
-pitch = pd.read_csv("/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_C/pitch.csv")
+pitch = pd.read_csv("/... FILE PATH .../Dataset_C/pitch.csv")
 
 #%% map projection
 
