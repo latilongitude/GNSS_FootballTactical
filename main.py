@@ -8,8 +8,15 @@ import matplotlib.pyplot as plt
 from shapely.geometry import LinearRing
 
 
-#%% read session details
+FILE_NAME =
+"""text file to ...
+"""
+DIR_NAME
 
+#%% read session details
+''' 
+set up of event date
+'''
 match_info_dir = '/... FILE PATH .../Dataset_B/ssgdetails_6x6.xlsx'
 
 match_info = SessionDetails.read_match_data(match_info_dir)
@@ -22,12 +29,7 @@ pitch = pd.read_csv("/... FILE PATH .../Dataset_C/pitch.csv")
 
 ini_xyco_pitch = PitchRotation.coordinates_to_field(pitch) # get coordinates(x, y) of pitch
 
-# ## plot pitch
-# ini_pitch_x, ini_pitch_y = LinearRing(zip(ini_xyco_pitch['X'], ini_xyco_pitch['Y'])).xy # plot for visualisation (explicitly closed polygon)
-# fig = plt.figure()
-# plt.plot(ini_pitch_x, ini_pitch_y, "g", alpha=0.7, linewidth=3, solid_capstyle='round', zorder=2)
-
-## determine origin and other vertices
+## determine origin and other vertices !! get back to manucsript
 ini_xyco_pitch.sort_values(by = 'Y', axis=0, ascending = True, inplace = True)
 
 origin = ini_xyco_pitch[0:2].sort_values(by = 'X', axis=0, ascending=True).iloc[[0]] # origin
@@ -166,6 +168,11 @@ ssg_10Hz.interpolate(method="linear", limit_direction="both", inplace=True, axis
 
 
 #%% data smoothing
+def my_funct(a, b=3):
+    return a + b
+
+d = my_funct(4) # result 7
+d = my_funct(3, b=7) # result in 10
 
 for col in range (2, playernum*2+2):
     ssg_10Hz.iloc[0:, col] = signal.savgol_filter(ssg_10Hz.iloc[0:, col], window_length = 7, polyorder = 1)
