@@ -15,7 +15,7 @@ DIR_NAME
 
 #%% read session details
 ''' 
-set up of event date
+
 '''
 match_info_dir = '/... FILE PATH .../Dataset_B/ssgdetails_6x6.xlsx'
 
