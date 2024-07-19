@@ -23,5 +23,5 @@ An exemplar dataset of pitch location coordinates, provides the coordinates of f
 ## Support
 
 For support, please reach out to us on X (Twitter):
-@Zhang64182011
-@kempe_matthias
+[@Zhang64182011](https://x.com/Zhang64182011)
+[@kempe_matthias](https://x.com/kempe_matthias)
