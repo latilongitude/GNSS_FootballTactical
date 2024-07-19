@@ -29,7 +29,7 @@ Timestamp info will be used for subsetting positional data of interest later.
 
 '''
 
-match_info_dir = '/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_B/ssgdetails_6x6.xlsx'
+match_info_dir = ' TEXT THE PATH OF YOUR FILE HERE '
 
 match_info = SessionDetails.read_match_data(match_info_dir)
 
@@ -47,7 +47,7 @@ An example provided below:
 
 '''
 
-pitch = pd.read_csv("/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_C/pitch.csv")
+pitch = pd.read_csv(" TEXT THE PATH OF YOUR FILE HERE ")
 
 #%% map projection
 
