@@ -102,6 +102,16 @@ pitch_rotated, switch_X_Y = PitchRotation.switch_x_y(pitch_rotated)
 
 #%% process individual positional data
 
+'''
+
+An example of individual positional data provided below, including Timestamp, Longtitude, Latitude.
+
+Timestamp	 Longitude	 Latitude
+44519.71566	-9.123676222	41.7260952
+44519.71566	-9.123676222	41.7260952
+
+'''
+
 playernum = 6 # num of players for each side
 
 start_ts = float(format(float(match_info.loc[0:playernum-1, ['Split Start Time']].max()), ".6f")) # timestamp of session end
@@ -111,7 +121,7 @@ end_ts = float(format(float(match_info.loc[0:playernum-1, ['Split End Time']].mi
 rm = rotation_matrix
 
 ## path to SSG positional data
-position_data_dir = '/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_A/'
+position_data_dir = ' TEXT THE FOLER PATH OF INDIVIDUAL POSITIONAL DATA FILES HERE '
 
 ssg = PositionalData.team_tracking(position_data_dir, start_ts, end_ts, rm, switch_X_Y)
 
