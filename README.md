@@ -19,3 +19,9 @@ An exemplar dataset of pitch location coordinates, provides the coordinates of f
 ## Codes
 
 `preprocessing.py` provides all functions needed for data processing in `main.py`
+
+## Support
+
+For support, please reach out to us on X (Twitter):
+@Zhang64182011
+@kempe_matthias
