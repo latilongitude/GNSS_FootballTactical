@@ -5,7 +5,7 @@ This repository contains a data sample of football small-sided games (SSG), as w
 
 ## Dataset A
 
-An exemplar dataset of raw GNSS positional data, comprises columns of timestamp (Unix), and players' latitude and longitude coordinates during the SSG.
+An exemplar dataset of raw GNSS positional data from six individuals, each comprises columns of timestamp (Unix), and players' latitude and longitude coordinates during the SSG.
 
 
 ## Dataset B
@@ -14,7 +14,7 @@ An exemplar dataset of session details, provides the exact start and end timesta
 
 ## Dataset C
 
-An exemplar dataset of pitch location coordinates, provides the coordinates of four pitch corners.
+An exemplar dataset of pitch location coordinates, provides the geographic coordinates of four pitch corners.
 
 ## Codes
 
