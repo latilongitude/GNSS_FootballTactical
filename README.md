@@ -14,7 +14,7 @@ An exemplar dataset of session details, provides the exact start and end timesta
 
 ## Dataset C
 
-An exemplar dataset of pitch location coordinates, provides the geographic coordinates of four pitch corners.
+An exemplar dataset of pitch location information, provides the geographic coordinates of four pitch corners.
 
 ## Codes
 
