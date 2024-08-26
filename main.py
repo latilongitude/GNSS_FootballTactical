@@ -37,6 +37,7 @@ match_info = SessionDetails.read_match_data(match_info_dir)
 '''
 
 This section reads the latitude and longitude coordinates of pitch corners
+Expects values for each of the 4 corners. 
 
 An example provided below:
     	longitude	latitude
@@ -47,7 +48,7 @@ An example provided below:
 
 '''
 
-pitch = pd.read_csv(" TEXT THE PATH OF YOUR FILE HERE ")
+pitch = pd.read_csv(" FILL IN THE PATH OF YOUR FILE HERE ")
 
 #%% map projection
 
@@ -65,7 +66,7 @@ PitchRotation.plot_pitch(ini_xyco_pitch) # plot the pitch after map projection
 
 '''
 
-This section is to align picth length and width with x-axis and y-axis respectively, for following goal-to-goal or side-to-side analysis.
+This section is to align pitch length and width with x-axis and y-axis respectively, for following goal-to-goal or side-to-side analysis.
 
 Rotation matrix computed from rotating pitch will also to calibrate player positional data.
 
@@ -114,14 +115,14 @@ Timestamp	 Longitude	 Latitude
 
 playernum = 6 # num of players for each side
 
-start_ts = float(format(float(match_info.loc[0:playernum-1, ['Split Start Time']].max()), ".6f")) # timestamp of session end
+start_ts = float(format(float(match_info.loc[0:playernum-1, ['Split Start Time']].max()), ".6f")) # timestamp of session start
 
 end_ts = float(format(float(match_info.loc[0:playernum-1, ['Split End Time']].min()), ".6f")) # timestamp of session end
 
 rm = rotation_matrix
 
 ## path to SSG positional data
-position_data_dir = ' TEXT THE FOLER PATH OF INDIVIDUAL POSITIONAL DATA FILES HERE '
+position_data_dir = ' FIll IN THE FODLER PATH OF INDIVIDUAL POSITIONAL DATA FILES HERE '
 
 ssg = PositionalData.team_tracking(position_data_dir, start_ts, end_ts, rm, switch_X_Y)
 
