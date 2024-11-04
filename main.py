@@ -46,7 +46,7 @@ colname_start_time = 'Split Start Time' # the actual column in your dataset that
 
 colname_end_time = 'Split End Time' # the actual column in your dataset that contains ending timestamps
 
-match_info_dir = '/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_B/ssgdetails_6x6.xlsx'
+match_info_dir = 'PLEASE COPY/TYPE IN THE FILEPATH'
 
 match_info = SessionDetails.read_match_data(match_info_dir, col_to_be_used, colname_start_time, colname_end_time)
 
@@ -68,7 +68,7 @@ Please ensure your file in the following format
 
 '''
 
-pitch = pd.read_csv("/Users/abcd/Documents/Liverpool/Manuscript-Tactical/github/Dataset_C/pitch.csv")
+pitch = pd.read_csv("PLEASE COPY/TYPE IN THE FILEPATH")
 
 check_pitch = PitchRotation.check_pitch_columns(pitch)
 
@@ -137,19 +137,23 @@ An example of individual positional data is provided below, necessary columns in
 
 '''
 
-playernum = 6 # PLEASE TYPE IN THE NUMBER OF EACH TEAM IN YOUR DATASET
-
-start_ts = float(format(float(match_info.loc[0:playernum-1, ['Start Time']].max()), ".6f")) # timestamp of session end
-
-end_ts = float(format(float(match_info.loc[0:playernum-1, ['End Time']].min()), ".6f")) # timestamp of session end
-
-rm = rotation_matrix
-
 ## path to SSG positional data
-position_data_dir = '/Users/abcd/Desktop/Dataset_A/'
+position_data_dir = 'PLEASE COPY/TYPE IN THE FILEPATH'
 
 ## check data format, necessary columns include 'Timestamp', 'Latitude', 'Longitude'
 check_player = PositionalData.check_pitch_columns(position_data_dir) # if necessary columns missing and alternative
+
+## ! PLEASE TYPE IN THE NUMBER OF EACH TEAM IN YOUR DATASET
+playernum = 6
+
+## use the rotation matrix used for rotating pitch
+rm = rotation_matrix
+
+## timestamp of session start
+start_ts = float(format(float(match_info.loc[0:playernum-1, ['Start Time']].max()), ".6f"))
+
+## timestamp of session end
+end_ts = float(format(float(match_info.loc[0:playernum-1, ['End Time']].min()), ".6f"))
 
 ## process individual data into team data
 ssg = PositionalData.team_tracking(position_data_dir, check_player, start_ts, end_ts, rm, switch_X_Y)
