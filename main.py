@@ -16,11 +16,11 @@ This section reads the session detials of your interest.
 
 Data exported from different devices/brands may include various types of information.
 
-For the purpose of demonstration, the following columns are of interest,
+For the current demonstration purpose, the following columns are of interest:
 
 Date, Category, Format, Team in SSGs, Player Name, Split Start Time, Split End Time
 
-
+-------------------------------------------------------------------
 An overview provided below:
 
 	Date	Category	Format	Number of team 	Player Name	Split Start Time	Split End Time
@@ -30,7 +30,7 @@ An overview provided below:
 3	44519	U-18	6 v 6 	A	ID_4	44519.746692731	44519.747584907
 4	44519	U-18	6 v 6 	A	ID_5	44519.746692731	44519.747584907
 5	44519	U-18	6 v 6 	A	ID_6	44519.746692731	44519.747584907
-
+-------------------------------------------------------------------
 
 *** Please keep columns of interest in your dataset using the variable 'col_to_be_used' below
 
@@ -59,13 +59,13 @@ check_match_info = SessionDetails.check_time_columns(match_info)
 This section reads the latitude and longitude coordinates of pitch corners
 
 Please ensure your file in the following format
-
+-------------------------------------------------------------------
     	Longitude	Latitude
 0	-9.12436877	    41.72674194
 1	-9.123890745	41.72592757
 2	-9.123290669	41.72612579
 3	-9.12376968	    41.72693916
-
+-------------------------------------------------------------------
 '''
 
 pitch = pd.read_csv("PLEASE COPY/TYPE IN THE FILEPATH")
@@ -130,11 +130,11 @@ pitch_rotated, switch_X_Y = PitchRotation.switch_x_y(pitch_rotated)
 '''
 
 An example of individual positional data is provided below, necessary columns including Timestamp, Longtitude, Latitude.
-
+-------------------------------------------------------------------
     Timestamp	Longitude	Latitude
 44519.71566	-9.123676222	41.7260952
 44519.71566	-9.123676222	41.7260952
-
+-------------------------------------------------------------------
 '''
 
 ## path to SSG positional data
