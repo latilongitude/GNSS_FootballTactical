@@ -19,7 +19,7 @@ An exemplar dataset of pitch location information, provides the geographic coord
 
 ## Codes
 
-`preprocessing.py` provides all functions needed for data processing in `main.py`
+`file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py`
 
 ## Support
 
