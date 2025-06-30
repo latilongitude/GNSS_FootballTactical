@@ -106,8 +106,8 @@ A giveaway dataset can be found in the following link [STATSport dataset](https:
 
 ## Support
 
-For support, please reach out to us on X (Twitter): <br />
-- [@Zhang64182011](https://x.com/Zhang64182011) <br />
+For support, please reach out to us on LinkedIn or X : <br />
+- [@Guangze_Zhang](linkedin.com/in/guangze-zhang-5902a2178) <br />
 * [@kempe_matthias](https://x.com/kempe_matthias) <br />
 
 ## Publication
