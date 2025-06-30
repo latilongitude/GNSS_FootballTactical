@@ -14,10 +14,18 @@ _Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S.B.H (under review)
 > [!IMPORTANT]
 > Please check out the following lines before runing the code.
 
-## Dataset A
 
-An exemplar dataset of raw GNSS positional data from six individuals, each comprises columns of timestamp (Unix), and players' latitude and longitude coordinates during the SSG. Data were collected with Catapult Optimeye
-S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).
+## 1. Dataset_A_Positional_data
+
+An exemplar dataset of raw GNSS positional data from six individuals, each comprises following ccolumns
+
+    - timestamp (e.g., Unix or Converted timestamp)
+
+    - players' latitude and longitude coordinates
+
+Examplar data were collected with Catapult Optimeye S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).
+
+Additional data collected with Catapult Vector S7 and STATSports devices were also used during the pipeline development.
 
 
 ## Dataset B
