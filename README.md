@@ -2,7 +2,7 @@
 
 This repository contains a data sample of football small-sided games (SSG), as well as the referential code for data pre-processing prior to tactical analysis.
 
-The purpose of this repository is to provide example code for all the preprocessing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyze training sessions (including small-sided games) as well as match data.
+The purpose of this repository is to provide a code pipeline comprising all the preprocessing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyse training sessions (including small-sided games) as well as match data.
 
 The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports.
 
