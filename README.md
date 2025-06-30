@@ -93,7 +93,7 @@ As mentioned above, positional data files should contain column "Timestamp", "La
     
 However, letter-case and spelling issues could happen in reality, and are therefore allowed in the current code package.
     
-To help users double check file and column naming and domenstrate the notifications in case unexpected naming found, the examplar dataset contains column names that do not fully follow the standardised naming.
+To help users double check file and column naming and domenstrate the notifications in case unexpected naming is found, the examplar dataset contains column names that do not fully follow the standardised naming.
     
 For example, when running the code with the examplar data, you will see a prompt <br />
 **_"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."_** This indicates the codes running well and the potential issues.
