@@ -65,24 +65,24 @@ In your future use, to ensure a smooth start with new datasets, please double ch
 
 - File naming
 
-    - `Dataset_A_Positional_Data` for your folder containing individual position data files that are named as `TEAM_PLAYER`, such as `U18_ID13.csv`.
+    - `Dataset_A_Positional_Data` for your folder containing individual position data files that are named as `"TEAM_PLAYER.csv"`, such as `U18_ID13.csv`.
     - `Dataset_B_Pitch` for pitch location file (both `.csv` and `.xlsx` are supported)
     - `Datset_C_SessionDetails` for session's start and end timestamps ((both `.csv` and `.xlsx` are supported)
 
 - Column naming
 
     - Files in folder `Dataset_A_Positional_Data` should contain the following columns
-        - "Timestamp"
-        - "Latitude"
-        - "Longitude"
+        - `"Timestamp"`
+        - `"Latitude"`
+        - `"Longitude"`
     
     - `Dataset_B_Pitch` should contain the following columns
-        - "Latitude"
-        - "Longitude"
+        - `"Latitude"`
+        - `"Longitude"`
     
     - `Datset_C_SessionDetails` should contain the following columns
-        - "Start Time"
-        - "End Time"
+        - `"Start Time"`
+        - `"End Time"`
 
 ### 4.3 Pre-set helpful notification
 
