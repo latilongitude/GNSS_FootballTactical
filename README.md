@@ -95,7 +95,7 @@ However, letter-case and spelling issues could happen in reality, and are theref
     
 To help users double check file and column naming and domenstrate the notifications in case unexpected naming found, the examplar dataset contains column names that do not fully follow the standardised naming.
     
-As an example, when running the code with the examplar data, you will see a prompt **_"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."_** This indicates the codes running well and the potential issues.
+For example, when running the code with the examplar data, you will see a prompt **_"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."_** This indicates the codes running well and the potential issues.
     
 ## Additional trial data
 
@@ -107,7 +107,7 @@ A giveaway dataset can be found in the following link [STATSport dataset](https:
 ## Support
 
 For support, please reach out to us on LinkedIn or X : <br />
-- [Guangze_Zhang](https://www.linkedin.com/in/guangze-zhang-5902a2178) <br />
+- [Guangze Zhang](https://www.linkedin.com/in/guangze-zhang-5902a2178) <br />
 * [Matthias Kempe](https://www.linkedin.com/in/matthias-kempe-268208168) <br />
 
 ## Publication
