@@ -65,7 +65,7 @@ In your future use, to ensure a smooth start with new datasets, please double ch
 
 - File naming
 
-    - `Dataset_A_Positional_Data` for your folder containing individual position data files that are named as "TEAM_PLAYER", such as "U18_ID13".
+    - `Dataset_A_Positional_Data` for your folder containing individual position data files that are named as `TEAM_PLAYER`, such as `U18_ID13.csv`.
     - `Dataset_B_Pitch` for pitch location file (both `.csv` and `.xlsx` are supported)
     - `Datset_C_SessionDetails` for session's start and end timestamps ((both `.csv` and `.xlsx` are supported)
 
