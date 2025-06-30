@@ -65,7 +65,7 @@ In your future use, to ensure a smooth start with new datasets, please double ch
 
 - File naming
 
-    - `Dataset_A_Positional_Data` for your folder containing all individual position data
+    - `Dataset_A_Positional_Data` for your folder containing individual position data files that are named as "TEAM_PLAYER", such as "U18_ID13".
     - `Dataset_B_Pitch` for pitch location file (both `.csv` and `.xlsx` are supported)
     - `Datset_C_SessionDetails` for session's start and end timestamps ((both `.csv` and `.xlsx` are supported)
 
@@ -96,7 +96,8 @@ However, letter-case and spelling issues could happen in reality, and are theref
 To help users double check file and column naming and domenstrate the notifications in case unexpected naming is found, the examplar dataset contains column names that do not fully follow the standardised naming.
     
 For example, when running the code with the examplar data, you will see a prompt <br />
-**_"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."_** This indicates the codes running well and the potential issues.
+**_"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."_**
+This indicates the codes running well and the potential issues.
     
 ## Additional trial data
 
