@@ -1,20 +1,18 @@
 # Navigating Team Tactical Analysis in Football: An Analytical Pipeline Leveraging Player Tracking Technology
 
-
 This repository contains a data sample of football small-sided games (SSG), as well as the referentail code for data processing prior to tactical analysis.
-
-To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.
 
 The purpose of this repository is to provide example code for all the preprocessing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyze training sessions (including small-sided games) as well as match data.
 
-The code is primarily designed for Catapult tracking systems but can be adapted for other systems as well. The rationale behind each processing step is explained in detail in a manuscript under review.
+The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports.
 
-> [!NOTE]
-> Please check out the following lines before runing the code.
+To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.
 
-The rationale behind each processing step is explained in detail in:<br />
+The rationale behind each processing step is explained in detail in a manuscript under review:<br />
 _Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S.B.H (under review). Navigating Team Tactical Analysis in Football: An Analytical Pipeline Leveraging Player Tracking Technology_
    
+> [!IMPORTANT]
+> Please check out the following lines before runing the code.
 
 ## Dataset A
 
