@@ -95,9 +95,7 @@ However, letter-case and spelling issues could happen in reality, and are theref
     
 To help users double check file and column naming and domenstrate the notifications in case unexpected naming found, the examplar dataset contains column names that do not fully follow the standardised naming.
     
-As an example, when running the code with the examplar data, you will see a prompt "[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."
-
-This indicates the codes running well and the potential issues.
+As an example, when running the code with the examplar data, you will see a prompt **_"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."_** This indicates the codes running well and the potential issues.
     
 ## Additional trial data
 
