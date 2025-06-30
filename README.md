@@ -107,8 +107,8 @@ A giveaway dataset can be found in the following link [STATSport dataset](https:
 ## Support
 
 For support, please reach out to us on LinkedIn or X : <br />
-- [@Guangze_Zhang](linkedin.com/in/guangze-zhang-5902a2178) <br />
-* [@kempe_matthias](https://x.com/kempe_matthias) <br />
+- [Guangze_Zhang](https://www.linkedin.com/in/guangze-zhang-5902a2178) <br />
+* [Matthias Kempe](https://www.linkedin.com/in/matthias-kempe-268208168) <br />
 
 ## Publication
 Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S.B.H (under review). Navigating the Game: An Analytical Pipeline for GNSS-Based Tactical Analysis in Football   
