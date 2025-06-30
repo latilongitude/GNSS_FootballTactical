@@ -100,9 +100,7 @@ For example, when running the code with the examplar data, you will see a prompt
     
 ## Additional trial data
 
-To demonstrate the pipeline's compatiability with different sources, such as data from STATSports with converted timestamp.
-
-A giveaway dataset can be found in the following link [Positional_STATSports](https://github.com/latilongitude/Positional_STATSports).
+To demonstrate the pipeline's compatibility with different data sources, such as data from STATSports with converted timestamp, a giveaway dataset can be found in the following link [Positional_STATSports](https://github.com/latilongitude/Positional_STATSports).
 
 
 ## Support
