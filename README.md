@@ -41,6 +41,7 @@ An exemplar dataset of session details, provides the exact start and end timesta
 ## 4. Codes
 
 `file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py`
+`requirements.txt` states all packages to be included
 
 
 ### 4.1 Set global path
