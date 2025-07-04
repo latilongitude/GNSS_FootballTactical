@@ -89,7 +89,7 @@ In your future use, to ensure a smooth start with new datasets, please double ch
 ### 4.3 Pre-set helpful notification
 
 > [!IMPORTANT]
-> The following notifications (not warning) are designed to inform users of necessary file preparation
+> The following notifications (not warning) are designed to inform users of necessary file preparation.
 
 As mentioned above, positional data files should contain column "Timestamp", "Latitude", and "Longitude".
     
