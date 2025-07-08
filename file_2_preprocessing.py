@@ -265,7 +265,7 @@ class PitchRotation:
         fig = plt.figure()
         plt.plot(ini_pitch_x, ini_pitch_y, "g", alpha=0.7, linewidth=3, solid_capstyle='round', zorder=2)
         plt.title("Pitch in Cartesian coordinates")
-        
+        plt.savefig("pitch.png")
         return fig
     
     

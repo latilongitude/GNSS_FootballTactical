@@ -25,7 +25,8 @@ Enclosed folder/files will be detected.
 ## set folder path
 #folder_path = 'PLEASE COPY/TYPE IN THE PATHNAME OF THE FOLDER CONTAINING ALL FILES'
 ## Example: "\Desktop\..." for Windows; "/Desktop/..." for Mac
-folder_path = '/Users/abcd/Documents/Liverpool/Statsports/trial/Data'
+# folder_path = '/Users/abcd/Documents/Liverpool/Statsports/trial/Data'
+folder_path = "/home/work/MHL/GNSS_FootballTactical"
 #folder_path = '/Users/abcd/Documents/Liverpool/Manuscript-Tactical/Submission_JSET/Revision_R1/codes_05062025'
 
 ## identify relevant files and folder
@@ -66,7 +67,8 @@ An overview provided below:
 match_info_dir = os.path.join(folder_path, filename_session)
 
 ## read data
-match_info = SessionDetails.read_match_data(match_info_dir)
+# match_info = SessionDetails.read_match_data(match_info_dir)
+match_info = SessionDetails.read_match_data(folder_path, filename_session)
 
 ## parser checking data format
 time_format = SessionDetails.check_time_columns(match_info)
