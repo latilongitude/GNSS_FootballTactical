@@ -18,9 +18,8 @@ An exemplar dataset of raw GNSS positional data from six individuals, each compr
 
     - players' latitude and longitude coordinates
 
-Examplar data were collected with Catapult Optimeye S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).
-
-Additional data collected with Catapult Vector S7 and STATSports devices were also used during the pipeline development.
+Examplar data were collected with Catapult Optimeye S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).</br></br>
+Additional data collected with Catapult Vector S7 and STATSports player tracking devices were also used during the pipeline development.
 
 ## 2. Dataset_B_Pitch
 
@@ -44,18 +43,17 @@ pip install -r requirements.txt
 
 ### 4.2 Set global path
 
-To make sure python begainners can get on this code package asap, all directories needed for reading files have been set in unified format.
+To make sure users can get on this code package asap, all directories needed for reading files have been set in unified format.
 
 > [!IMPORTANT]
-> Before running the code, users should make sure files (`Dataset_A_Positional_Data`, `Dataset_B_Pitch.csv`, `Datset_C_SessionDetails.xlsx`) are under the same filepath (e.g., enclosed in single folder).<br/><br/>
-> If it fails to automatically read folder path, please try to insert the folder path manually.
+> Before running the code, users should make sure files (`Dataset_A_Positional_Data`, `Dataset_B_Pitch.csv`, `Datset_C_SessionDetails.xlsx`) are enclosed in a **single folder**.<br/><br/>
+> If it fails to automatically identify folder path, please try to insert the folder path manually.</br>
   Copy/paste the filepath of the corresponding folder path into line XXX in `file_1_main_analysis.py`. The correct file path should contain following delimiters: `/` (Windows or Linux), `\` (Mac).<br/><br/>
-> For your later use, please alawys ensure a correct filepath in `file_1_main_analysis.py`.
+> For your later use, please alawys ensure a correct folder path in `file_1_main_analysis.py`.
 
 ### 4.3 Standardised file naming (for future use)
 
-While case-insensitivity and spelling errors are allowed to minimise users' trial-and-error, we would like users to be aware of the standardised file naming, and potential format issues that might need to be dealt with in their later uses.
-
+While case-insensitivity and spelling errors are allowed to minimise users' trial-and-error, we would like users to be aware of the standardised file naming, and potential format issues that might need to be dealt with in their later uses.</br></br>
 In your future use, to ensure a smooth start with new datasets, please double check if your files follow the guidelines below.
 
 - File naming
