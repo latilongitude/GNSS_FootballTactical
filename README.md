@@ -1,14 +1,10 @@
 # Preparing GNSS positional data for football tactical analysis
 
-This repository contains a data sample of football small-sided games (SSG), as well as the referentail code for data processing prior to tactical analysis.
-
-The purpose of this repository is to provide example code for all the preprocessing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyze training sessions (including small-sided games) as well as match data.
-
-The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports.
-
-To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.
-
-The rationale behind each processing step is explained in detail in a manuscript under review.
+This repository contains a data sample of football small-sided games (SSG), as well as the referentail code for data processing prior to tactical analysis.</br></br>
+The purpose of this repository is to provide example code for all the preprocessing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyze training sessions (including small-sided games) as well as match data.</br></br>
+The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports.</br></br>
+To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.</br></br>
+The rationale behind each processing step is explained in detail in a manuscript under review.</br></br>
 
 > [!IMPORTANT]
 > Please check out the following lines before runing the code.
@@ -96,6 +92,5 @@ This indicates the codes running well and the potential issues :white_check_mark
     
 ## Additional trial data
 
-To demonstrate the pipeline's compatiability with different sources, such as data from STATSports with converted timestamp.
-
-A giveaway dataset can be found in the following link ...
+To demonstrate the pipeline's compatiability with different sources, such as data from STATSports with converted timestamp.</br></br>
+A giveaway dataset can be found in the following link [latilongitude/Positional_STATSports](https://github.com/latilongitude/Positional_STATSports).
