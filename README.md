@@ -51,7 +51,7 @@ pip install -r requirements.txt
 To make sure python begainners can get on this code package asap, all directories needed for reading files have been set in unified format.
 
 > [!IMPORTANT]
-> Before running the code, users should make sure files (`Dataset_A_Positional_Data`, `Dataset_B_Pitch.csv`, `Datset_C_SessionDetails.xlsx`) are under the same filepath (e.g., enclosed in single folder).\n
+> Before running the code, users should make sure files (`Dataset_A_Positional_Data`, `Dataset_B_Pitch.csv`, `Datset_C_SessionDetails.xlsx`) are under the same filepath (e.g., enclosed in single folder).<br/>
 > If it fails to automatically read folder path, please try to insert the folder path manually.
   Copy/paste the filepath of the corresponding folder path into line XXX in `file_1_main_analysis.py`. The correct file path should contain following delimiters: `/` (Windows or Linux), `\` (Mac).
 
