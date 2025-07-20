@@ -1,7 +1,7 @@
 # Preparing GNSS positional data for football tactical analysis
 
-This repository contains a data sample of football small-sided games (SSG), as well as the referentail code for data processing prior to tactical analysis.</br></br>
-The purpose of this repository is to provide example code for all the preprocessing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyze training sessions (including small-sided games) as well as match data.</br></br>
+This repository contains a data sample of football small-sided games (SSG), as well as the referential code for data processing prior to tactical analysis.</br></br>
+The purpose of this repository is to provide examplar codes for all pre-processing steps necessary for tactical analysis in football based on GNSS data. It can be used to analyze training sessions (including small-sided games) as well as match scenarios.</br></br>
 The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports.</br></br>
 To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.</br></br>
 The rationale behind each processing step is explained in detail in a manuscript under review.</br></br>
@@ -18,8 +18,8 @@ An exemplar dataset of raw GNSS positional data from six individuals, each compr
 
     - players' latitude and longitude coordinates
 
-Examplar data were collected with Catapult Optimeye S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).</br></br>
-Additional data collected with Catapult Vector S7 and STATSports player tracking devices were also used during the pipeline development.
+Examplar data were collected using Catapult Optimeye S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).</br></br>
+Additional data collected using Catapult Vector S7 and STATSports player tracking devices were also used during the pipeline development.
 
 ## 2. Dataset_B_Pitch
 
@@ -47,7 +47,8 @@ To make sure users can get on this code package asap, all directories needed for
 
 > [!IMPORTANT]
 > Before running the code, users should make sure files (`Dataset_A_Positional_Data`, `Dataset_B_Pitch.csv`, `Datset_C_SessionDetails.xlsx`) are enclosed in a **single folder**.<br/><br/>
-> If it fails to automatically identify folder path, please try to insert the folder path manually.</br>
+> Once all files are enclosed in a single folder, the folder's filpath is set to be automatically identified.</br></br>
+> If it fails to automatically identify folder path, please try to insert the folder path manually: :arrow_down:</br>
   Copy/paste the filepath of the corresponding folder path into line XXX in `file_1_main_analysis.py`. The correct file path should contain following delimiters: `/` (Windows or Linux), `\` (Mac).<br/><br/>
 > For your later use, please alawys ensure a correct folder path in `file_1_main_analysis.py`.
 
