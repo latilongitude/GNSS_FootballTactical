@@ -95,5 +95,5 @@ This indicates the codes running well and the potential issues :white_check_mark
     
 ## Additional trial data
 
-To demonstrate the pipeline's compatiability with different sources, such as data from STATSports with converted timestamp.</br></br>
+To demonstrate the pipeline's compatiability with different sources, such as data from STATSports player tracking devices with converted timestamps.</br></br>
 A giveaway dataset can be found in the following link [latilongitude/Positional_STATSports](https://github.com/latilongitude/Positional_STATSports).
