@@ -33,7 +33,7 @@ An exemplar dataset of session details, provides the exact start and end timesta
 
 `file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py`
 
-### 4.1 install packages
+### 4.1 Install packages
 
 > [!IMPORTANT]
 > Before running the code, install the required Python packages using pip:
