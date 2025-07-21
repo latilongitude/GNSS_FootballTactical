@@ -49,7 +49,7 @@ To make sure users can get on this code package asap, all directories needed for
 > Before running the code, users should make sure files (`Dataset_A_Positional_Data`, `Dataset_B_Pitch.csv`, `Datset_C_SessionDetails.xlsx`) are enclosed in a **single folder**.<br/><br/>
 > Once all files are enclosed in a single folder, the folder's path is set to be automatically identified.</br></br>
 > If it fails to automatically identify folder path, please try to insert the folder path manually: :arrow_down:</br>
->  - Copy/paste the filepath of the corresponding folder path into `line 42` in `file_1_main_analysis.py`.
+>  - Copy/paste the filepath of the corresponding folder path into `line 44` in `file_1_main_analysis.py`.
 >  - The correct file path should contain following delimiters: `/` (Windows or Linux), `\` (Mac).<br/><br/>
 
 > [!TIP]
