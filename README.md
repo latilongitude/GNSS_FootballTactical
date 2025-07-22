@@ -12,11 +12,14 @@ The rationale behind each processing step is explained in detail in a manuscript
 
 ## 1. Dataset_A_Positional_data
 
-An exemplar dataset of raw GNSS positional data from six individuals, each comprises following ccolumns
+An exemplar dataset of raw GNSS positional data from six individuals, each comprises following ccolumns</br>
+|   Timestamp   |  Latitude  |  Longitude  |
+|----------------|------------|-------------|
+|       ...      |     ...    |     ...     |
 
-    - timestamp (e.g., Unix or Converted timestamp)
+    - Timestamp (e.g., Unix or Converted timestamp)
 
-    - players' latitude and longitude coordinates
+    - Latitude and Longitude coordinates
 
 Examplar data were collected using Catapult Optimeye S5 tracking devices (10 Hz, Catapult Innovations, South Melbourne, VIC, Australia).</br></br>
 Additional data collected using Catapult Vector S7 and STATSports player tracking devices were also used during the pipeline development.
