@@ -113,3 +113,7 @@ As an example, when running the code with the examplar data, you will see a prom
 
 To demonstrate the pipeline's compatiability with different sources, such as data from STATSports player tracking devices with converted timestamps.</br></br>
 A giveaway dataset can be found in the following link [latilongitude/Positional_STATSports](https://github.com/latilongitude/Positional_STATSports).
+
+## Basic tactical measures
+
+As requested, the code for computing basic tactical measures is provided [here](https://github.com/latilongitude/Compute_basic_tactical_measures).
