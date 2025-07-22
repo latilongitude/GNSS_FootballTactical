@@ -49,8 +49,7 @@ An exemplar dataset of session details, provides the exact start and end timesta
 
 ### 4.1 Install packages
 
-> [!IMPORTANT]
-> Before running the code, install the required Python packages using pip:
+Before running the code, install the required Python packages using pip:</br>
 ```bash
 pip install -r requirements.txt
 ```
