@@ -19,7 +19,7 @@ Set the working directory that contains all files.
 
 If automatically reading folder path does not work, please try to insert the folder path manually.
 
-Please set the working directory that contains all files
+Please set the folder that contains all files the working directory.
 
 Example for Windows (delimiter "\"):  "C:\Desktop\..."
 
