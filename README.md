@@ -36,6 +36,7 @@ An exemplar dataset of pitch location information, provides the geographic coord
 An exemplar dataset of session details, provides the exact start and end timestamps of the SSG.</br>
 |  Player Name  |  Start Time  |  End Time  |
 |---------------|--------------|------------|
+|      ...      |      ...     |     ...    |
 
 ## 4. Codes
 
