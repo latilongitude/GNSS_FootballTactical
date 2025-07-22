@@ -12,8 +12,8 @@ The rationale behind each processing step is explained in detail in a manuscript
 
 ## 1. Dataset_A_Positional_data
 
-An exemplar dataset of raw GNSS positional data from six individuals, each comprises following ccolumns</br>
-|   Timestamp   |  Latitude  |  Longitude  |
+An exemplar dataset of raw GNSS positional data from six individuals, each comprises following columns necessary for data processing</br>
+|   Timestamp    |  Latitude  |  Longitude  |
 |----------------|------------|-------------|
 |       ...      |     ...    |     ...     |
 
@@ -27,6 +27,9 @@ Additional data collected using Catapult Vector S7 and STATSports player trackin
 ## 2. Dataset_B_Pitch
 
 An exemplar dataset of pitch location information, provides the geographic coordinates of four pitch corners.
+|  Latitude  |  Longitude  |
+|------------|-------------|
+|     ...    |     ...     |
 
 ## 3. Datset_C_SessionDetails
 
