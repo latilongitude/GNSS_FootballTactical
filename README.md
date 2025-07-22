@@ -1,6 +1,6 @@
 # Preparing GNSS positional data for football tactical analysis
 
-This repository is set up to provide examplary code for **all pre-processing steps necessary for preparing GNSS position data for football tactical analysis**. It can be used to analyze training sessions (including small-sided games) as well as match scenarios.</br></br>
+This repository is set up to provide examplary code for **all pre-processing steps necessary for preparing GNSS positional data for football tactical analysis**. It can be used to analyze training sessions (including small-sided games) as well as match scenarios.</br></br>
 This repository contains a data sample of football small-sided games (SSG), as well as the referential code for step-by-step pre-processing.</br></br>
 The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports. However, different parsers might still be required to load data from different data providers. Please make sure to double check the data format after loading the data.</br></br>
 To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.</br></br>
@@ -100,12 +100,12 @@ In your future use, to ensure a smooth start with new datasets, please double ch
 > [!IMPORTANT]
 > The following notifications (not warning) are designed to inform users of necessary file preparation.
 
-As mentioned above, positional data files should contain column "Timestamp", "Latitude", and "Longitude".<br/><br/>
+As mentioned above, positional data files should contain column **"Timestamp", "Latitude", and "Longitude"**.<br/><br/>
 However, letter-case and spelling issues could happen in reality, and are therefore allowed in the current code package.<br/><br/>
 To help users **double check file and column naming and domenstrate the notifications in case unexpected naming found, the examplar dataset contains column names that do not fully follow the standardised naming**.<br/><br/>
 As an example, when running the code with the examplar data, you will see a prompt </br>
 `"[OK] Friendly reminder: Column ' Longitude' in U18_ID4.csv will be renamed to 'Longitude' in further processing. No action needed. Please double check column format in future uses."`<br/><br/>
-This indicates the codes running well and the potential issues :white_check_mark:
+This indicates **the code running well :white_check_mark: and the potential issues**.
     
 ## Additional trial data
 
