@@ -26,18 +26,23 @@ Additional data collected using Catapult Vector S7 and STATSports player trackin
 
 ## 2. Dataset_B_Pitch
 
-An exemplar dataset of pitch location information, provides the geographic coordinates of four pitch corners.
+An exemplar dataset of pitch location information, provides the geographic coordinates of four pitch corners.</br></br>
 |  Latitude  |  Longitude  |
 |------------|-------------|
 |     ...    |     ...     |
 
 ## 3. Datset_C_SessionDetails
 
-An exemplar dataset of session details, provides the exact start and end timestamps of the SSG.
+An exemplar dataset of session details, provides the exact start and end timestamps of the SSG.</br></br>
+|  Player Name  |  Start Time  |  End Time  |
+|---------------|--------------|------------|
 
 ## 4. Codes
 
-`file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py`
+Users only have to run `file_1_main_analysis.py` for data processing.</br></br>
+`file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py`.</br></br>
+> [!IMPORTANT]
+> Please read **4.2 Set global path** before running the code.
 
 ### 4.1 Install packages
 
