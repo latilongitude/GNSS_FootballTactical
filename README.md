@@ -1,6 +1,6 @@
 # Preparing GNSS positional data for football tactical analysis
 
-This repository is set up to provide examplary code for **all pre-processing steps necessary for preparing GNSS positional data for football tactical analysis**. It can be used to analyze training sessions (including small-sided games) as well as match scenarios.</br></br>
+This repository is set up to provide an analytical pipeline presenting **all pre-processing steps necessary for preparing GNSS positional data for football tactical analysis**. It can be used to analyze training sessions (including small-sided games) as well as match scenarios.</br></br>
 This repository contains a data sample of football small-sided games (SSG), as well as the referential code for step-by-step pre-processing.</br></br>
 The code is primarily designed for Catapult tracking systems and has been made compatible with other tracking systems as well, such as STATSports. However, different parsers might still be required to load data from different data providers. Please make sure to double check the data format after loading the data.</br></br>
 To preserve anonymity, personal and location data that can determine individuals' information have been modified without affecting the demonstration purpose.</br></br>
