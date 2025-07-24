@@ -7,7 +7,7 @@ To preserve anonymity, personal and location data that can determine individuals
 The rationale behind each processing step is explained in detail in a manuscript under review.</br></br>
 
 > [!IMPORTANT]
-> Please check out the following lines before runing the code.
+> Please check out the following lines before runing the code as the follwoing section will explain the analysis pipeline step by step. It is thereby important to keep in mind that the pipeline expects 3 different files. Your "normal" GNSS data file form our data provider, a file that provides the locations of 4 pitch corners, and a file with the specific sections of your training sessesion (or game) that should be analysed. 
  
 
 ## 1. Dataset_A_Positional_data
