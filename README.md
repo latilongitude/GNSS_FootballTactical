@@ -116,4 +116,4 @@ A giveaway dataset can be found in the following link [latilongitude/Positional_
 
 ## Basic tactical measures
 
-As requested, the code for computing basic tactical measures is provided [here](https://github.com/latilongitude/Compute_basic_tactical_measures).
+The code provided in this repository only provides the preprocessing steps for tactical analysis of GNSS data, for computing basic tactical measures (e.g. team centroid) additional code is provided [here](https://github.com/latilongitude/Compute_basic_tactical_measures).
