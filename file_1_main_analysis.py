@@ -177,7 +177,6 @@ rm = rotation_matrix
 start_ts, end_ts = PositionalData.identify_start_end_timestamp(match_info, time_format, playernum)
 
 ## process individual data into team data
-#ssg = PositionalData.team_tracking(position_data_dir, check_position_data, time_format, start_ts, end_ts, rm, switch_X_Y)
 ssg = PositionalData.team_tracking(position_data_dir, check_position_data, time_format, start_ts, end_ts, rm)
 
 ## create a 10 Hz dummy timeline starting from 0.1s
