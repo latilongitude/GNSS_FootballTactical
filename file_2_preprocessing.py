@@ -371,7 +371,23 @@ class PitchRotation:
     
     ## Function to calculate a 2D rotation matrix to align the pitch based on two reference points
     def rotation_matrix (origin, the_other, third_vex, fourth_vex):
-        
+         """
+    Computes a 2D rotation matrix to align the vector between two reference points with the x-axis.
+    
+    This function calculates a rotation matrix that would align the vector from `origin` to `the_other` 
+    with the positive x-axis. The rotation direction (clockwise/counter-clockwise) is determined by 
+    the relative Y-coordinates of the reference points.
+
+    Note: Arguments `third_vex` and `fourth_vex` are currently unused and should be removed if not needed.
+
+     Parameters:
+    origin (dict): Reference point 1 with 'X'/'Y' keys
+    the_other (dict): Reference point 2 with 'X'/'Y' keys
+    third_vex, fourth_vex: Currently unused (placeholder arguments)
+
+    Returns:
+    np.array: 2x2 rotation matrix (clockwise or counter-clockwise)
+        """
         # Calculate the difference in X and Y between the two reference points
         dx = abs(float(the_other['X']) - float(origin['X']))
         dy = abs(float(the_other['Y']) - float(origin['Y']))
