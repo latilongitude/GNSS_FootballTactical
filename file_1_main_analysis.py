@@ -89,10 +89,10 @@ This section reads the latitude and longitude coordinates of pitch corners
 Please ensure your file in the following format
 
     	Longitude	Latitude
-0	-9.12436877	    41.72674194
+0	-9.12436877	41.72674194
 1	-9.123890745	41.72592757
 2	-9.123290669	41.72612579
-3	-9.12376968	    41.72693916
+3	-9.12376968	41.72693916
 
 '''
 
