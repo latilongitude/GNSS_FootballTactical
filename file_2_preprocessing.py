@@ -425,7 +425,24 @@ class PitchRotation:
     ## Switch x and y coordinates (if needed)
     ## To Ensure make pitch length parallel with x-axis
     def switch_x_y (df):
-        
+          """
+    Ensures pitch length is parallel to x-axis by swapping X/Y coordinates if necessary.
+    
+    Compares the pitch length in X and Y directions (calculated as max-min range). If the pitch
+    is longer in the Y-direction (meaning it's currently parallel to y-axis), swaps the X and Y
+    columns throughout the DataFrame. This standardization is useful for consistent orientation
+    in subsequent calculations and visualizations.
+    
+    Returns both the modified DataFrame and a flag indicating whether swapping occurred.
+    
+    Parameters:
+    df (pd.DataFrame): DataFrame containing pitch coordinate data with 'X' and 'Y' columns
+    
+    Returns:
+    tuple: 
+        - Modified DataFrame (with X/Y swapped if needed)
+        - switch_X_Y (str): "yes" if swap occurred, "no" otherwise
+    """
         # Calculate the pitch length along X and Y directions by difference between max and min values
         if df['X'].max() - df['X'].min() < df['Y'].max() - df['Y'].min() : ## if pitch length is parallel with with y-axis, it is needed
             
@@ -454,7 +471,24 @@ class PositionalData:
     
     ## parser checking data format
     def check_pitch_columns(file_dir):
-        
+     """
+    Validates GPS data files in a directory for required columns and data formats.
+    
+    This function scans all CSV files in the specified directory and checks for:
+    1. Presence of required columns: 'Timestamp', 'Longitude', 'Latitude'
+    2. Appropriate data types (float for coordinates, flexible for timestamp)
+    3. Automatically detects alternative column names using keyword matching
+    
+    For each file, it generates a validation report and identifies alternative
+    column names that can be used for automatic renaming in downstream processing.
+    
+    Parameters:
+    file_dir (str): Path to directory containing GPS data files
+    
+    Returns:
+    dict: Mapping of standardized column names to detected column names
+           (e.g., {'Timestamp': 'time', 'Longitude': 'Lon', ...})
+    """    
         # List all files in the given directory
         file_list = os.listdir(file_dir)
     
@@ -781,7 +815,31 @@ class PositionalData:
     
     
     def create_new_timeline (time_format, ssg, start_ts, end_ts):
-        
+         """
+    Creates a standardized 10Hz timeline and processes timestamp data based on the specified format.
+    
+    This function handles two timestamp formats:
+    1. Unix timestamps (seconds since epoch)
+    2. datetime.time objects (time-of-day without date)
+    
+    It returns a uniform 10Hz timeline and processes the input data to match this timeline format.
+    
+    Parameters:
+    time_format (str): Specifies timestamp format - "Unix" or "datetime-time"
+    ssg (pd.DataFrame): Input data containing timestamp column
+    start_ts (float/datetime.time): Start time boundary
+    end_ts (float/datetime.time): End time boundary
+    
+    Returns:
+    tuple: 
+        dum_timeline (pd.DataFrame): Uniform 10Hz timeline with columns:
+            - Timestamp: Original time representation
+            - Start [s]: Time in seconds from start (0.0, 0.1, 0.2,...)
+        ssg (pd.DataFrame): Processed input data with converted timestamps
+    
+    Raises:
+    ValueError: For unsupported time formats
+    """
         ## for Unix formatted timestamp
         if time_format == "Unix":
             
@@ -818,7 +876,39 @@ class PositionalData:
     
     
     def check_data_loss (ssg, dum_timeline):
-        
+        """
+    Analyzes data completeness and missing value patterns in synchronized sensor data.
+
+    This function evaluates three types of data loss:
+    1. Partial data loss: Timestamps with missing values for at least one player
+    2. Complete data loss: Expected timestamps missing entirely from the dataset
+    3. Consecutive NaNs: Runs of missing values per player (2-6 consecutive missing entries)
+
+    Parameters:
+    -----------
+    ssg : pandas.DataFrame
+        Sensor data DataFrame where:
+        - Index/Row: Timestamps
+        - Column 0: Should be timestamp (ignored for player analysis)
+        - Columns 1,3,5...: Player IDs
+        - Columns 2,4,6...: Corresponding player values
+        Expects NaN values indicating missing measurements.
+
+    dum_timeline : pandas.Series or array-like
+        Complete reference timeline of all expected timestamps. Used to identify
+        completely missing data points.
+
+    Behavior:
+    ---------
+    Prints formatted analysis report with:
+    - Partial data loss counts/percentages
+    - Complete data loss counts/percentages
+    - Distribution of consecutive NaN runs (2-6 length) per player column
+
+    Note:
+    -----
+    Player columns are identified as every odd-indexed column (1,3,5...) in `ssg`.
+    """
         ## the number of rows with NaN value (partial data loss)
         print("-" * 50)
         print("Partial data loss (missing data for some players)")
