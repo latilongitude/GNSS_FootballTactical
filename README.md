@@ -41,8 +41,8 @@ An exemplary dataset of session details, provides the exact start and end timest
 ## 4. Codes
 
 > [!TIP]
-> Users only have to run `file_1_main_analysis.py` for data processing.</br></br>
-> `file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py`.</br></br>
+>  The User only needs to run `file_1_main_analysis.py` for data processing.</br></br>
+> `file_2_preprocessing.py` provides all functions needed for data processing in `file_1_main_analysis.py` and should be in the same directory as but users don´t need to run it.</br></br>
 
 > [!IMPORTANT]
 > Please read ***4.2 Set global path*** before running the code.
