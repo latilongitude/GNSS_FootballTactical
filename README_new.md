@@ -7,7 +7,6 @@
 A reproducible pre-processing workflow for transforming raw GNSS positional data into analysis-ready inputs for football tactical studies. The repository includes sample datasets, turnkey scripts, and detailed guidance so researchers and analysts can go from raw Catapult/STATSports exports to pitch-aligned files tailored for tactical metrics.
 
 > Personal and geographic identifiers have been anonymised without changing the analytical value of the demonstration datasets. Full motivation and methodology are described in the following publication:
-
 Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S. (2025). Navigating Team Tactical Analysis in Football: An Analytical Pipeline Leveraging Player Tracking Technology. _Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology._
 
 ## Contents
