@@ -4,7 +4,11 @@
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 [![Data Ready](https://img.shields.io/badge/datasets-SSG%20demo-green.svg)](#sample-datasets)
 
-A reproducible preprocessing workflow for transforming raw GNSS data into analysis-ready inputs for football tactical studies. The repository includes sample datasets, turnkey scripts, and detailed guidance so researchers and performance analysts can go from raw Catapult/STATSports exports to pitch-aligned files tailored for tactical metrics.
+A reproducible pre-processing workflow for transforming raw GNSS positional data into analysis-ready inputs for football tactical studies. The repository includes sample datasets, turnkey scripts, and detailed guidance so researchers and analysts can go from raw Catapult/STATSports exports to pitch-aligned files tailored for tactical metrics.
+
+> Personal and geographic identifiers have been anonymised without changing the analytical value of the demonstration datasets. Full motivation and methodology are described in the following publication:
+
+Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S. (2025). Navigating Team Tactical Analysis in Football: An Analytical Pipeline Leveraging Player Tracking Technology. _Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology._
 
 ## Contents
 - [Overview](#overview)
@@ -17,7 +21,7 @@ A reproducible preprocessing workflow for transforming raw GNSS data into analys
 
 ## Overview
 
-This package demonstrates every preprocessing step required before computing tactical KPIs (team centroid, stretch index, etc.). It accepts training sessions (including small-sided games) and full-match scenarios. The scripts were primarily developed around Catapult Optimeye/Vector devices while validating compatibility with STATSports exports and converted timestamps.
+This package demonstrates every pre-processing step required before computing tactical KPIs (team centroid, stretch index, etc.). It accepts training sessions (including small-sided games) and full-match scenarios. The scripts were primarily developed around Catapult Optimeye/Vector devices while validating compatibility with STATSports exports and converted timestamps.
 
 ## Sample Datasets
 
@@ -50,7 +54,7 @@ Only `file_1_main_analysis.py` needs to be executed; `file_2_preprocessing.py` p
 | --- | --- | --- |
 | Positional folder | `Dataset_A_Positional_Data` | `Timestamp`, `Latitude`, `Longitude` |
 | Pitch file (`.csv`/`.xlsx`) | `Dataset_B_Pitch` | `Latitude`, `Longitude` |
-| Session segments (`.csv`/`.xlsx`) | `Datset_C_SessionDetails` | `Start Time`, `End Time` (+ optional `Player Name`) |
+| Session details (`.csv`/`.xlsx`) | `Datset_C_SessionDetails` | `Start Time`, `End Time` (+ optional `Player Name`) |
 
 The scripts tolerate case differences and minor typos but will surface friendly reminders when auto-corrections occur so you can fix upstream exports.
 
@@ -71,11 +75,9 @@ These messages indicate that the run is healthy while highlighting naming incons
 
 ## Citation
 
-If this pipeline supports your research, please cite the accompanying manuscript once published. Until then, please reference the repository directly:
+If this pipeline supports your work, please cite the following publication:
 
-```
-Author(s). (2025). GNSS Football Tactical Pipeline. https://github.com/latilongitude/GNSS_FootballTactical
-```
+Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S. (2025). Navigating Team Tactical Analysis in Football: An Analytical Pipeline Leveraging Player Tracking Technology. _Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology._
 
-For collaboration or questions, open an issue or contact the corresponding author listed in the manuscript under review.
+For collaboration or questions, open an issue or contact the contributors of this repository.
 
