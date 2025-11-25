@@ -73,11 +73,11 @@ These messages indicate that the run is healthy while highlighting naming incons
 - Additional STATSports sample data: https://github.com/latilongitude/Positional_STATSports
 - Tactical metric computation package: https://github.com/latilongitude/Compute_basic_tactical_measures
 
-## Citation
+## Citation & Collaboration
 
 If this pipeline supports your work, please cite the following publication:
 
 Zhang, G., Kempe, M., McRobert, A., Folgado, H., & Olthof, S. (2025). Navigating Team Tactical Analysis in Football: An Analytical Pipeline Leveraging Player Tracking Technology. _Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology._
 
-For collaboration or questions, open an issue or contact the contributors of this repository: [Guangze Zhang](https://github.com/latilongitude) • [Matthias Kempe](https://github.com/MatKempeGroningen).
+We are looking forward to further working on this repository. For collaboration or questions, open an issue or contact the contributors of this repository: [Guangze Zhang](https://github.com/latilongitude) • [Matthias Kempe](https://github.com/MatKempeGroningen).
 
