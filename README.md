@@ -17,7 +17,7 @@ A reproducible pre-processing workflow for transforming raw GNSS positional data
 - [File and Column Naming](#file-and-column-naming)
 - [Friendly Notifications](#friendly-notifications)
 - [Further Resources](#further-resources)
-- [Citation](#citation)
+- [Citation & Collaboration](#citation)
 
 ## Overview
 
